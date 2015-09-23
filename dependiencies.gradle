@@ -1,0 +1,50 @@
+ext {
+
+    libs = [
+
+            hadoopBase :["org.apache.hadoop:hadoop-common:2.5.1",
+                         "org.apache.hadoop:hadoop-hdfs:2.5.1",
+                         "org.apache.hadoop:hadoop-client:2.5.1"
+                        ]
+  /*          common              : [
+                    "org.apache.commons:commons-lang3:3.3.2",
+                    "org.slf4j:slf4j-api:1.7.12"
+            ],
+            spring             : [
+                    "org.springframework:spring-core:${springVersion}",
+                    "org.springframework:spring-web:${springVersion}",
+                    "org.springframework:spring-webmvc:${springVersion}"
+            ],
+            springBoot         : [
+                    "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+                    "org.springframework.boot:spring-boot-starter-jetty:${springBootVersion}",
+            ],
+            springfoxSwagger2  : [
+                    "io.springfox:springfox-swagger2:${springfoxVersion}"
+            ],
+            springfoxSwaggerUi : [
+                    "io.springfox:springfox-swagger-ui:${springfoxVersion}"
+            ],
+
+            jackson            : [
+                    "com.fasterxml.jackson.core:jackson-core:${jacksonVersion}",
+                    "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}",
+                    "com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}"
+            ],
+
+            test               : [
+                    "junit:junit:4.11",
+                    "org.assertj:assertj-core:3.0.0",
+                    "org.mockito:mockito-core:1.10.19"
+            ],
+            cucumber : [
+                    "info.cukes:cucumber-java:${cucumberVersion}",
+                    "info.cukes:cucumber-spring:${cucumberVersion}",
+                    "info.cukes:cucumber-junit:${cucumberVersion}"
+            ],
+            springfoxStaticDocs: [
+                    "io.springfox:springfox-staticdocs:${springfoxVersion}"
+            ],
+            */
+    ]
+}
